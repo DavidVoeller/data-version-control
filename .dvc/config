@@ -1,5 +1,8 @@
 [core]
     analytics = false
     remote = remote_storage
+[cache]
+    type = symlink
+    protected = true
 ['remote "remote_storage"']
     url = E:/user/HEGit/test
